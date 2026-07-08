@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Generated outputs
+results/*.csv
+saved_models/*.h5
+saved_models/*.index
+saved_models/checkpoint
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
